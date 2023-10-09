@@ -66,7 +66,7 @@ console.log("nombreCompletoDePersona()", nombreCompletoDePersona(personaEjemplo)
  */
 function felizCumpleaños(persona) {
 
-    return persona["edad "] + = 1;
+    return persona["edad"] + = 1;
 }
 console.log("felizCumpleaños()", felizCumpleaños(personaEjemplo));
 

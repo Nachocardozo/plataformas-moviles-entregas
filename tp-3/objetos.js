@@ -65,8 +65,8 @@ console.log("nombreCompletoDePersona()", nombreCompletoDePersona(personaEjemplo)
  * - un objeto, representando a la misma persona recibida, pero con un año más. 
  */
 function felizCumpleaños(persona) {
-
-    return persona["edad"] + = 1;
+    persona["edad"] + = 1;
+    return persona;
 }
 console.log("felizCumpleaños()", felizCumpleaños(personaEjemplo));
 
